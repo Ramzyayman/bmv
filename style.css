@@ -1,0 +1,98 @@
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.button {
+    border: none;
+    background: none;
+}
+.peach {
+
+    width: 250px;
+    height: 250px;
+}
+
+body {
+    background-color: #faae8e;
+}
+
+  #yes, #no {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.question {
+    padding: 20px;
+    font-size: 42px;
+    color: white;
+    text-shadow: 0 0 20px #3e2068;
+}
+
+.button {
+    border: 1px solid #3e2068;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 23px;
+    color: white;
+    background-color: #f36e5d;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.button:hover {
+    cursor: pointer;
+    text-shadow: 0 0 10px #3e2068;
+    box-shadow: 0 0 2px 2px #3e2068;
+    transition: .3s;
+}
+
+
+.popUp {
+    position: fixed;
+    background-color: #8fc4fb;
+    box-shadow: 0 0 2px 2px #51a892;
+    border: 30px solid #51a892;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    padding-top: 30px;
+    visibility: hidden;
+}
+
+.gif {
+    position: relative;
+    width: 300px;
+    height: auto;
+
+}
+
+.popUpText {
+    color: red;
+    font-size: 40px;
+    text-shadow: 0 0 5px black;
+    
+}
+
+.show {
+    visibility: visible;
+} 
+
+.ramzy {
+    font-size: 10px;
+}
