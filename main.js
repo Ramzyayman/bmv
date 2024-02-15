@@ -13,8 +13,8 @@ noButton.onclick = function()
 {
     noButton.style.transition = '0s';
     noButton.style.position = 'absolute';
-    noButton.style.left = (getRandomInt(700) + 100)+ 'px';
-    noButton.style.top =  (getRandomInt(700) + 100)+ 'px';
+    noButton.style.left = (getRandomInt(600) + 100)+ 'px';
+    noButton.style.top =  (getRandomInt(600) + 100)+ 'px';
 
 };
 
